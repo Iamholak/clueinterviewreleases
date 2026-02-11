@@ -33,8 +33,8 @@ This website is built with:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Iamholak/clueinterview.git
-cd clueinterview
+git clone https://github.com/Iamholak/clueinterviewreleases.git
+cd clueinterviewreleases
 ```
 
 2. Install dependencies:
