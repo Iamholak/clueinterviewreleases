@@ -4,44 +4,48 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 15% 15%;
-    --primary: 210 40% 45%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 30 80% 55%;
-    --secondary-foreground: 0 0% 100%;
-    --accent: 210 50% 50%;
-    --accent-foreground: 0 0% 100%;
-    --muted: 210 15% 90%;
-    --muted-foreground: 210 15% 45%;
-    --border: 210 15% 85%;
-    --radius: 0.5rem;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 7%;
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --accent: 240 5% 20%;
+    --accent-foreground: 0 0% 98%;
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 5% 65%;
+    --border: 240 5% 20%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
 
 @layer components {
   .container {
-    @apply mx-auto px-4 max-w-7xl;
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
   }
 
   .btn {
-    @apply inline-flex items-center justify-center rounded-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50 disabled:cursor-not-allowed;
   }
 
   .btn-primary {
-    @apply btn bg-primary text-primary-foreground hover:bg-primary/90;
+    @apply btn bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg shadow-primary/20;
   }
 
   .btn-secondary {
-    @apply btn bg-secondary text-secondary-foreground hover:bg-secondary/90;
+    @apply btn bg-secondary text-secondary-foreground hover:bg-accent border border-border;
   }
 
   .btn-outline {
-    @apply btn border border-border bg-transparent text-foreground hover:bg-muted;
+    @apply btn border border-border bg-transparent text-foreground hover:bg-accent;
   }
 }
