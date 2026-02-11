@@ -33,18 +33,18 @@ This website is built with:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Iamholak/clueinterviewreleases.git
-cd clueinterviewreleases
+git clone https://github.com/Iamholak/clueinterview.git
+cd clueinterview
 ```
 
 2. Install dependencies:
 ```bash
-pnpm install
+npm install
 ```
 
 3. Run the development server:
 ```bash
-pnpm dev
+npm dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
@@ -52,8 +52,8 @@ pnpm dev
 ## Building for Production
 
 ```bash
-pnpm build
-pnpm start
+npm build
+npm start
 ```
 
 ## Project Structure
