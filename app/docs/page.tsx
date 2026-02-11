@@ -171,6 +171,7 @@ export default function DocsPage() {
                     {[
                       { shortcut: 'Space', action: 'Send message' },
                       { shortcut: 'Ctrl/Cmd + K', action: 'Clear chat' },
+                      { shortcut: 'Ctrl/Cmd + Shift + H', action: 'Hide/Show app on screen' },
                       { shortcut: 'Ctrl/Cmd + L', action: 'Toggle code block' },
                       { shortcut: 'Escape', action: 'Close settings' },
                     ].map((item, idx) => (
