@@ -29,13 +29,16 @@ export default function Home() {
               </h1>
               
               <p className="text-lg md:text-xl text-muted-foreground mb-10 text-balance max-w-2xl mx-auto leading-relaxed">
-                Practice live interviews with real-time AI feedback, transcription, and coaching tailored to your experience. Perfect for developers preparing for their next opportunity.
+                Practice live interviews with real-time AI feedback, transcription, and coaching. Perfect for anyone preparing for or conducting technical interviews.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                <button className="btn btn-primary px-8 py-3.5 text-base font-semibold">
+                <a 
+                  href="/download"
+                  className="btn btn-primary px-8 py-3.5 text-base font-semibold"
+                >
                   Download ClueInterview
-                </button>
+                </a>
                 <a 
                   href="https://github.com/Iamholak/clueinterview"
                   target="_blank"
@@ -199,9 +202,12 @@ export default function Home() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="btn btn-primary px-8 py-3.5 text-base font-semibold">
+                <a 
+                  href="/download"
+                  className="btn btn-primary px-8 py-3.5 text-base font-semibold"
+                >
                   Download Now
-                </button>
+                </a>
                 <a 
                   href="https://github.com/Iamholak/clueinterviewreleases"
                   target="_blank"

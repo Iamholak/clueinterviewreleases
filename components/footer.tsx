@@ -11,15 +11,15 @@ export function Footer() {
               <span className="text-foreground">ClueInterview</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              AI-powered interview assistant for developers and tech professionals.
+              AI-powered interview platform for candidates, interviewers, and tech professionals.
             </p>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4 text-sm">Product</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
+              <li><a href="/#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
+              <li><a href="/download" className="text-muted-foreground hover:text-foreground transition-colors">Download</a></li>
               <li><a href="/docs" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
             </ul>
           </div>
