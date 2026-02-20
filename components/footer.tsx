@@ -11,15 +11,15 @@ export function Footer() {
               <span className="text-foreground">ClueInterview</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              AI-powered interview assistant for developers and tech professionals.
+              AI-powered interview platform for candidates, interviewers, and tech professionals.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4 text-sm">Product</h4>
             <ul className="space-y-3 text-sm">
-              <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="/pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
+              <li><a href="/#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
+              <li><a href="/download" className="text-muted-foreground hover:text-foreground transition-colors">Download</a></li>
               <li><a href="/docs" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
             </ul>
           </div>
@@ -45,8 +45,8 @@ export function Footer() {
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>&copy; 2026 ClueInterview. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors" aria-label="Twitter">Twitter</a>
-            <a href="#" className="hover:text-foreground transition-colors" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://x.com/0xholak" className="hover:text-foreground transition-colors" aria-label="Twitter">Twitter</a>
+            <a href="https://linkedin.com/in/kasali-olawale-habeeb" className="hover:text-foreground transition-colors" aria-label="LinkedIn">LinkedIn</a>
             <a href="https://github.com/Iamholak" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors" aria-label="GitHub">GitHub</a>
           </div>
         </div>
