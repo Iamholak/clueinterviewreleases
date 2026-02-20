@@ -15,8 +15,8 @@ export function Header() {
           <Link href="/#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Features
           </Link>
-          <Link href="/download" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            Download
+          <Link href="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            Pricing
           </Link>
           <Link href="/docs" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Documentation
