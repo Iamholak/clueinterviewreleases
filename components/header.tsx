@@ -42,7 +42,7 @@ export function Header() {
             </svg>
           </a>
           <button className="btn btn-primary px-5 py-2 text-sm"  onClick={() => {
-    window.location.href = "https://github.com/Iamholak/clueinterviewreleases/releases/download/v0.0.1/ClueInterview-Setup-0.0.1.exe";
+    window.location.href = "https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.0/ClueInterview-Setup-1.2.0.exe";
   }}>
             Download Now
           </button>
