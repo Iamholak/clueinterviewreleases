@@ -14,7 +14,7 @@ export default function DownloadPage() {
       ),
       description: 'Download the Windows installer',
       version: 'v1.2.2',
-      url: 'https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.2/ClueInterview-Setup-1.2.2.exe',
+      url: 'https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.2/Clue-Interview-Setup-1.2.2.exe',
       filename: 'ClueInterview-Setup-1.2.2.exe',
       steps: [
         'Download the .exe installer',
