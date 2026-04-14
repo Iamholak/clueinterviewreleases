@@ -13,8 +13,8 @@ export default function DownloadPage() {
         </svg>
       ),
       description: 'Download the Windows installer',
-      version: 'v1.2.2',
-      url: 'https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.3/Clue-Interview-Setup-1.2.3.exe',
+      version: 'v1.2.4',
+      url: 'https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.4/Clue-Interview-Setup-1.2.4.exe',
       filename: 'ClueInterview-Setup-1.2.3.exe',
       steps: [
         'Download the .exe installer',
@@ -317,7 +317,7 @@ export default function DownloadPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.0/ClueInterview-Setup-1.2.0.exe"
+                  href="https://github.com/Iamholak/clueinterviewreleases/releases/download/v1.2.4/Clue-Interview-Setup-1.2.4.exe"
                   className="btn btn-primary px-8 py-3.5 text-base font-semibold"
                 >
                   Download for Windows
